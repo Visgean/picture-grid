@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="container">
+      <PhotoGrid/>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PhotoGrid from './components/PhotoGrid.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PhotoGrid
   }
 }
 </script>
